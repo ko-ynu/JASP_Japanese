@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-05-27 09:39+0900\n"
+"PO-Revision-Date: 2021-07-01 00:02+0900\n"
 "Last-Translator: Hiroki Uematsu <uematsu.hiroki@gmail.com>, Ko Yamamoto(kou@ynu.ac.jp)\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/jasp-desktop/ja/>\n"
 "Language: ja\n"
@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 2.4.3\n"
+"X-Generator: Poedit 3.0\n"
 "X-Language: en_US\n"
 "X-Source-Language: American English\n"
 "X-Qt-Contexts: true\n"
@@ -177,7 +177,7 @@ msgstr "平均の表示"
 
 msgctxt "ConfirmatoryFactorAnalysis|"
 msgid "Advanced"
-msgstr "高度"
+msgstr "高度な設定"
 
 msgctxt "ConfirmatoryFactorAnalysis|"
 msgid "Options"
@@ -450,7 +450,7 @@ msgstr "モデルプロット"
 
 msgctxt "LatentRegression|"
 msgid "Show parameters"
-msgstr "パラメータを表示します"
+msgstr "パラメータを表示"
 
 msgctxt "LatentRegression|"
 msgid "Show means"
@@ -839,7 +839,7 @@ msgstr "分析の順序を変更するためにドラッグ"
 
 msgctxt "AnalysisFormExpander|"
 msgid "Edit the title of this analysis"
-msgstr "この分析のタイトルの編集"
+msgstr "この分析のタイトルを編集"
 
 msgctxt "AnalysisFormExpander|"
 msgid "Duplicate this analysis"
@@ -897,24 +897,21 @@ msgctxt "BreadCrumbs|"
 msgid "You are here"
 msgstr "あなたはここにいる"
 
-#, fuzzy
 msgctxt "Computer|"
 msgid "Recent Folders"
-msgstr "最近使ったフォルダ"
+msgstr "最近使用したフォルダ"
 
 msgctxt "Computer|"
 msgid "Browse"
 msgstr "参照"
 
-#, fuzzy
 msgctxt "CurrentFile|"
 msgid "Current data file for synchronization"
-msgstr "同期のため、現在のデータファイル"
+msgstr "同期用のデータファイル"
 
-#, fuzzy
 msgctxt "DataLibrary|"
 msgid "Data Library"
-msgstr "データライブラリー"
+msgstr "データ ライブラリ"
 
 #, fuzzy
 msgctxt "ListItem|"
@@ -926,7 +923,6 @@ msgctxt "ListItem|"
 msgid "Navigate to folder"
 msgstr "フォルダに移動"
 
-#, fuzzy
 msgctxt "ListItem|"
 msgid "Open JASP file"
 msgstr "JASPファイルを開く"
@@ -1002,15 +998,15 @@ msgstr "詳細設定"
 #, fuzzy
 msgctxt "PrefsAdvanced|"
 msgid "Remember Enabled Modules"
-msgstr "有効モジュールを覚える"
+msgstr "有効モジュールを記憶"
 
 msgctxt "PrefsAdvanced|"
 msgid ""
 "Continue where you left of the next time JASP starts.\n"
 "Enabling this option makes JASP remember which Modules you've enabled."
 msgstr ""
-"次回JASPが起動したときの左側から続行します. \n"
-"このオプションを有効にすると、JASPは有効にしたモジュールを記憶します."
+"次回JASPが起動したときの左側から続行. \n"
+"このオプションを有効にすると、JASPは有効にしたモジュールを記憶."
 
 #, fuzzy
 msgctxt "PrefsAdvanced|"
@@ -1025,7 +1021,7 @@ msgstr "開発者モード(Beta version)"
 #, fuzzy
 msgctxt "PrefsAdvanced|"
 msgid "To use JASP Modules enable this option."
-msgstr "JASPモジュールを使用するには、このオプションを有効にします."
+msgstr "JASPモジュールを使用するには、このオプションを有効."
 
 #, fuzzy
 msgctxt "PrefsAdvanced|"
@@ -1035,12 +1031,12 @@ msgstr "開発者のフォルダを選択"
 #, fuzzy
 msgctxt "PrefsAdvanced|"
 msgid "Browse to your JASP Module folder."
-msgstr "あなたのJASPモジュールのフォルダを参照します."
+msgstr "あなたのJASPモジュールのフォルダを参照."
 
 #, fuzzy
 msgctxt "PrefsAdvanced|"
 msgid "Regenerate package metadata every time (DESCRIPTION & NAMESPACE)"
-msgstr "毎回パッケージメタデータを再生成します(DESCRIPTION & NAMESPACE)"
+msgstr "毎回パッケージメタデータを再生成(DESCRIPTION & NAMESPACE)"
 
 msgctxt "PrefsAdvanced|"
 msgid "Disable this option if you are transforming your R-package to a JASP Module or simply want to keep manual changes to DESCRIPTION and NAMESPACE."
@@ -1084,12 +1080,12 @@ msgstr "データ設定"
 #, fuzzy
 msgctxt "PrefsData|"
 msgid "Synchronize automatically on data file save"
-msgstr "データファイルの保存時に自動的に同期してください"
+msgstr "データファイルの保存時に自動的に同期"
 
 #, fuzzy
 msgctxt "PrefsData|"
 msgid "Use default spreadsheet editor"
-msgstr "デフォルトのスプレッドシートエディタを使用"
+msgstr "既定のスプレッドシートエディタを使用"
 
 #, fuzzy
 msgctxt "PrefsData|"
@@ -1113,7 +1109,7 @@ msgstr ""
 #, fuzzy
 msgctxt "PrefsMissingValues|"
 msgid "Missing Value List"
-msgstr "値リストがありません"
+msgstr "値のリストがありません"
 
 #, fuzzy
 msgctxt "PrefsMissingValues|"
@@ -1137,7 +1133,7 @@ msgstr "表のオプション"
 #, fuzzy
 msgctxt "PrefsResults|"
 msgid "Display exact p-values"
-msgstr "正確なp値を表示します"
+msgstr "正確なp値を表示"
 
 #, fuzzy
 msgctxt "PrefsResults|"
@@ -1156,7 +1152,7 @@ msgstr "描画にPPIを利用: "
 
 msgctxt "PrefsResults|"
 msgid "Use the Pixels Per Inch of your screen to render your plots."
-msgstr "画面の1インチあたりのピクセル数を使用してプロットをレンダリングします."
+msgstr "画面の1インチあたりのピクセル数を使用してプロットをレンダリング."
 
 #, fuzzy
 msgctxt "PrefsResults|"
@@ -1242,7 +1238,7 @@ msgstr "選択された開発モジュールのインストール"
 
 msgctxt "ModulesMenu|"
 msgid "Installing developer module now"
-msgstr "今、開発モジュールをインストールする"
+msgstr "開発モジュールのインストール"
 
 msgctxt "ModulesMenu|"
 msgid "Select a developer module under Left menu->Preference->Advanced"
@@ -1436,7 +1432,7 @@ msgstr "フレキシブル:"
 
 msgctxt "WelcomePage|"
 msgid "JASP offers standard analysis procedures in both their classical and Bayesian manifestations."
-msgstr "JASPは、頻度論的表現とベイズ的表現の両方で標準的な分析手順を提供します."
+msgstr "JASPは、頻度論的表現とベイズ的表現の両方で標準的な分析手順を表示."
 
 msgctxt "WelcomePage|"
 msgid "Click to get latest version"
@@ -1454,8 +1450,8 @@ msgid ""
 msgstr ""
 "これはプレビューリリースであり、まだ多くの機能が不足していることに注意してください.\n"
 " \n"
-"今日JASPが必要なことをすべて実行できない場合は、明日もう一度確認してください.JASPは、すごい速度で開発されています!\n"
-"（日本語版作成　上松大輝＆清水優菜＆山本光 まだ誤訳が多いです　Ver.20210527）"
+"JASPが必要なことをすべて実行できない場合は、後日またお試しください.JASPは、迅速に更新されています!\n"
+"（日本語版作成　山本光 まだ誤訳が多いです　Ver.20210630）"
 
 msgctxt "Ancova|"
 msgid "Dependent Variable"
@@ -1519,7 +1515,7 @@ msgstr "信頼区間"
 
 msgctxt "Ancova|"
 msgid "Post Hoc Tests"
-msgstr "事後検定"
+msgstr "多重比較検定"
 
 msgctxt "Ancova|"
 msgid "From"
@@ -1611,7 +1607,7 @@ msgstr "周辺平均"
 
 msgctxt "Ancova|"
 msgid "Compare marginal means to 0"
-msgstr "周辺平均を 0 と比較する"
+msgstr "周辺平均を 0 と比較"
 
 msgctxt "Ancova|"
 msgid "Confidence interval adjustment"
@@ -1643,7 +1639,7 @@ msgstr "Vovk-Sellke maximum p-ratio"
 
 msgctxt "Ancova|"
 msgid "Simple Main Effects"
-msgstr "シンプル主な効果"
+msgstr "単純主効果"
 
 msgctxt "Ancova|"
 msgid "Factors"
@@ -1651,7 +1647,7 @@ msgstr "要因"
 
 msgctxt "Ancova|"
 msgid "Simple Effect Factor"
-msgstr "シンプルな影響要因"
+msgstr "単純効果因子"
 
 msgctxt "Ancova|"
 msgid "Moderator Factor 1"
@@ -1667,7 +1663,7 @@ msgstr "ノンパラメトリック"
 
 msgctxt "Ancova|"
 msgid "Kruskal-Wallis Test"
-msgstr "クルスカル・ウォリス検定"
+msgstr "クラスカル・ウォリス検定"
 
 msgctxt "AncovaBayesian|"
 msgid "Dependent Variable"
@@ -1779,7 +1775,7 @@ msgstr "周辺事後分布"
 
 msgctxt "AncovaBayesian|"
 msgid "Post Hoc Tests"
-msgstr "事後検定"
+msgstr "多重比較検定"
 
 msgctxt "AncovaBayesian|"
 msgid "Correction"
@@ -1787,7 +1783,7 @@ msgstr "補正"
 
 msgctxt "AncovaBayesian|"
 msgid "Null control"
-msgstr "ヌル制御"
+msgstr "帰無制御"
 
 msgctxt "AncovaBayesian|"
 msgid "Descriptives Plots"
@@ -1921,7 +1917,7 @@ msgstr "信頼区間"
 
 msgctxt "Anova|"
 msgid "Post Hoc Tests"
-msgstr "事後検定"
+msgstr "多重比較検定"
 
 msgctxt "Anova|"
 msgid "From"
@@ -2017,7 +2013,7 @@ msgstr "周辺平均"
 
 msgctxt "Anova|"
 msgid "Compare marginal means to 0"
-msgstr "周辺平均を 0 と比較する"
+msgstr "周辺平均を 0 と比較"
 
 msgctxt "Anova|"
 msgid "Confidence interval adjustment"
@@ -2049,11 +2045,11 @@ msgstr "Vovk-Sellke maximum p-ratio"
 
 msgctxt "Anova|"
 msgid "Simple Main Effects"
-msgstr "シンプルな主効果"
+msgstr "単純主効果"
 
 msgctxt "Anova|"
 msgid "Simple Effect Factor"
-msgstr "シンプルな影響要因"
+msgstr "単純効果因子"
 
 msgctxt "Anova|"
 msgid "Moderator Factor 1"
@@ -2069,7 +2065,7 @@ msgstr "ノンパラメトリック"
 
 msgctxt "Anova|"
 msgid "Kruskal-Wallis Test"
-msgstr "クルスカル・ウォリス検定"
+msgstr "クラスカル・ウォリス検定"
 
 msgctxt "AnovaBayesian|"
 msgid "Dependent Variable"
@@ -2177,7 +2173,7 @@ msgstr "事後分布の境界"
 
 msgctxt "AnovaBayesian|"
 msgid "Post Hoc Tests"
-msgstr "事後検定"
+msgstr "多重比較検定"
 
 msgctxt "AnovaBayesian|"
 msgid "Correction"
@@ -2185,7 +2181,7 @@ msgstr "相関"
 
 msgctxt "AnovaBayesian|"
 msgid "Null control"
-msgstr "ヌル制御"
+msgstr "帰無制御"
 
 msgctxt "AnovaBayesian|"
 msgid "Descriptives Plots"
@@ -2324,7 +2320,7 @@ msgstr "コントラスト"
 
 msgctxt "AnovaRepeatedMeasures|"
 msgid "Post Hoc Tests"
-msgstr "事後検定"
+msgstr "多重比較検定"
 
 msgctxt "AnovaRepeatedMeasures|"
 msgid "Confidence intervals"
@@ -2401,7 +2397,7 @@ msgstr "標準誤差"
 
 msgctxt "AnovaRepeatedMeasures|"
 msgid "Average across unused RM factors"
-msgstr "未使用のRMファクター全体の平均"
+msgstr "未使用のRM factor全体の平均"
 
 msgctxt "AnovaRepeatedMeasures|"
 msgid "Marginal Means"
@@ -2417,7 +2413,7 @@ msgstr "ブートストラップ"
 
 msgctxt "AnovaRepeatedMeasures|"
 msgid "Compare marginal means to 0"
-msgstr "周辺平均を 0 と比較する"
+msgstr "周辺平均を 0 と比較"
 
 msgctxt "AnovaRepeatedMeasures|"
 msgid "Confidence interval adjustment"
@@ -2457,11 +2453,11 @@ msgstr "Vovk-Sellke maximum p-ratio"
 
 msgctxt "AnovaRepeatedMeasures|"
 msgid "Simple Main Effects"
-msgstr "シンプル主な効果"
+msgstr "単純主効果"
 
 msgctxt "AnovaRepeatedMeasures|"
 msgid "Simple Effect Factor"
-msgstr "シンプルな影響要因"
+msgstr "単純効果因子"
 
 msgctxt "AnovaRepeatedMeasures|"
 msgid "Moderator Factor 1"
@@ -2482,7 +2478,7 @@ msgstr "ノンパラメトリック"
 
 msgctxt "AnovaRepeatedMeasures|"
 msgid "RM Factor"
-msgstr "RM ファクター"
+msgstr "RM Factor"
 
 msgctxt "AnovaRepeatedMeasures|"
 msgid "Optional Grouping Factor"
@@ -2602,7 +2598,7 @@ msgstr "周辺事後分布"
 
 msgctxt "AnovaRepeatedMeasuresBayesian|"
 msgid "Post Hoc Tests"
-msgstr "事後検定"
+msgstr "多重比較検定"
 
 msgctxt "AnovaRepeatedMeasuresBayesian|"
 msgid "Correction"
@@ -2610,7 +2606,7 @@ msgstr "補正"
 
 msgctxt "AnovaRepeatedMeasuresBayesian|"
 msgid "Null control"
-msgstr "ヌル制御"
+msgstr "帰無制御"
 
 msgctxt "AnovaRepeatedMeasuresBayesian|"
 msgid "Descriptives Plots"
@@ -2762,10 +2758,9 @@ msgctxt "auditBayesianWorkflow|"
 msgid "<b>1. Planning</b>"
 msgstr "<b>1. 計画</b>"
 
-#, fuzzy
 msgctxt "auditBayesianWorkflow|"
 msgid "1. Planning"
-msgstr "<b>1. 計画</b>"
+msgstr "1. 計画"
 
 msgctxt "auditBayesianWorkflow|"
 msgid "Population Materiality"
@@ -2928,16 +2923,15 @@ msgstr "<b>レポートをダウンロード</b>"
 
 msgctxt "auditBayesianWorkflow|"
 msgid "<b>To Selection</b>"
-msgstr "<b>選択する</b>"
+msgstr "<b>選択</b>"
 
 msgctxt "auditBayesianWorkflow|"
 msgid "<b>2. Selection</b>"
 msgstr "<b>2. 選択</b>"
 
-#, fuzzy
 msgctxt "auditBayesianWorkflow|"
 msgid "2. Selection"
-msgstr "<b>2. 選択</b>"
+msgstr "2. 選択"
 
 msgctxt "auditBayesianWorkflow|"
 msgid "Ranking Variable <i>(optional)</i>"
@@ -3034,14 +3028,13 @@ msgctxt "auditBayesianWorkflow|"
 msgid "<b>3. Execution</b>"
 msgstr "<b>3. 実行</b>"
 
-#, fuzzy
 msgctxt "auditBayesianWorkflow|"
 msgid "3. Execution"
-msgstr "<b>3. 実行</b>"
+msgstr "3. 実行"
 
 msgctxt "auditBayesianWorkflow|"
 msgid "<b>How would you like to evaluate your observations?</b>"
-msgstr "<b>あなたの観察をどのように評価しますか?</b>"
+msgstr "<b>観察を評価するか?</b>"
 
 msgctxt "auditBayesianWorkflow|"
 msgid "Audit values"
@@ -3057,11 +3050,11 @@ msgstr "<b>塗りつぶし変数</b>"
 
 msgctxt "auditBayesianWorkflow|"
 msgid "<b>Annotate your observations with their audit values.</b>"
-msgstr "<b>監査値を使用して、観測値にアポイントトを付けます.</b>"
+msgstr "<b>監査値を使用して、観測値を通知.</b>"
 
 msgctxt "auditBayesianWorkflow|"
 msgid "<b>Annotate your observations with 0 (correct) or 1 (incorrect).</b>"
-msgstr "<b>0 (正しい) または 1 (不正) で観測値にアセトします.</b>"
+msgstr "<b>0 (正しい) または 1 (不正) で観測値を通知.</b>"
 
 msgctxt "auditBayesianWorkflow|"
 msgid "<b>To Evaluation</b>"
@@ -3071,10 +3064,9 @@ msgctxt "auditBayesianWorkflow|"
 msgid "<b>4. Evaluation</b>"
 msgstr "<b>4. 評価</b>"
 
-#, fuzzy
 msgctxt "auditBayesianWorkflow|"
 msgid "4. Evaluation"
-msgstr "<b>4. 評価</b>"
+msgstr "4. 評価"
 
 msgctxt "auditBayesianWorkflow|"
 msgid "Audit Result"
@@ -3097,10 +3089,9 @@ msgctxt "auditBayesianWorkflow|"
 msgid "Area Under Posterior"
 msgstr "事後分布の領域"
 
-#, fuzzy
 msgctxt "auditBayesianWorkflow|"
 msgid "Credible bound"
-msgstr "バウンド信用できます"
+msgstr "境界を信頼"
 
 msgctxt "auditBayesianWorkflow|"
 msgid "Credible interval"
@@ -3417,7 +3408,7 @@ msgstr "<b>レポートをダウンロード</b>"
 
 msgctxt "auditClassicalWorkflow|"
 msgid "<b>To Selection</b>"
-msgstr "<b>選択する</b>"
+msgstr "<b>選択</b>"
 
 msgctxt "auditClassicalWorkflow|"
 msgid "<b>2. Selection</b>"
@@ -3550,7 +3541,7 @@ msgstr "<b>監査値を使用して、観測値にアポイントトを付けま
 
 msgctxt "auditClassicalWorkflow|"
 msgid "<b>Annotate your observations with 0 (correct) or 1 (incorrect).</b>"
-msgstr "<b>0 (正しい) または 1 (不正) で観測値にアセトします.</b>"
+msgstr "<b>0 (正しい) または 1 (不正) で観測値を通知.</b>"
 
 msgctxt "auditClassicalWorkflow|"
 msgid "<b>To Evaluation</b>"
@@ -3993,7 +3984,7 @@ msgstr "等しい vs. 小さい"
 
 msgctxt "BainTTestBayesianOneSample|"
 msgid "Bigger vs. smaller"
-msgstr "大きな vs. 小さいです"
+msgstr "大きい vs. 小さい"
 
 msgctxt "BainTTestBayesianOneSample|"
 msgid "Equal vs. bigger vs. smaller"
@@ -4067,7 +4058,7 @@ msgstr "等しい vs. 小さい"
 
 msgctxt "BainTTestBayesianPairedSamples|"
 msgid "Bigger vs. smaller"
-msgstr "大きな vs. 小さいです"
+msgstr "大きな vs. 小さい"
 
 msgctxt "BainTTestBayesianPairedSamples|"
 msgid "Equal vs. bigger vs. smaller"
@@ -4312,7 +4303,7 @@ msgstr "グレー"
 
 msgctxt "Descriptives|"
 msgid "Use color palette"
-msgstr "カラー パレットを使用する"
+msgstr "カラー パレットを使用"
 
 msgctxt "Descriptives|"
 msgid "Basic plots"
@@ -4320,11 +4311,11 @@ msgstr "基本的なプロット"
 
 msgctxt "Descriptives|"
 msgid "MAD Robust"
-msgstr "MAD 頑健"
+msgstr "頑健化平均絶対偏差"
 
 msgctxt "Descriptives|"
 msgid "IQR"
-msgstr "IQR"
+msgstr "四分位範囲"
 
 msgctxt "Descriptives|"
 msgid "Variance"
@@ -4357,7 +4348,7 @@ msgstr "尖度"
 #, fuzzy
 msgctxt "Descriptives|"
 msgid "Shapiro-Wilk test"
-msgstr "シャピロ - ウィルク検定"
+msgstr "シャピロ・ウィルク検定"
 
 msgctxt "Descriptives|"
 msgid "Values are group midpoints"
@@ -4879,7 +4870,7 @@ msgstr "対数オッズ比 < 0"
 
 msgctxt "ABTestBayesian|"
 msgid "Log odds ratio ≠ 0"
-msgstr "対数オッズ日 ≠ 0"
+msgstr "対数オッズ比 ≠ 0"
 
 #, fuzzy
 msgctxt "ABTestBayesian|"
@@ -5126,7 +5117,7 @@ msgstr "セル"
 
 msgctxt "ContingencyTables|"
 msgid "Expected"
-msgstr "ご利用開始前"
+msgstr "期待値"
 
 msgctxt "ContingencyTables|"
 msgid "Hide small counts"
@@ -5142,7 +5133,7 @@ msgstr "Z検定"
 
 msgctxt "ContingencyTables|"
 msgid "Compare column proportions"
-msgstr "列の比率を比較する"
+msgstr "列の比率を比較"
 
 msgctxt "ContingencyTables|"
 msgid "Adjust p-values"
@@ -5274,7 +5265,7 @@ msgstr "グループ1≠グループ2"
 
 msgctxt "ContingencyTablesBayesian|"
 msgid "Group one > Group two"
-msgstr "グループ1>グループ2"
+msgstr "グループ1>グループ２"
 
 msgctxt "ContingencyTablesBayesian|"
 msgid "Group one < Group two"
@@ -5769,7 +5760,7 @@ msgstr "最大ツリー:"
 
 msgctxt "mlClassificationBoosting|"
 msgid "Add predicted classes to data"
-msgstr "予測されたクラスをデータに追加する"
+msgstr "予測されたクラスをデータに追加"
 
 msgctxt "mlClassificationBoosting|"
 msgid "<b>Save Model</b>"
@@ -6204,7 +6195,7 @@ msgstr "K-距離プロット"
 
 msgctxt "mlClusteringDensityBased|"
 msgid "t-SNE cluster plot"
-msgstr "t-SNEクラスタープロット"
+msgstr "t-SNEクラスタプロット"
 
 msgctxt "mlClusteringDensityBased|"
 msgid "Legend"
@@ -6257,7 +6248,7 @@ msgstr "一定"
 
 msgctxt "mlClusteringDensityBased|"
 msgid "Add predicted clusters to data"
-msgstr "予測クラスターをデータに追加"
+msgstr "予測クラスタをデータに追加"
 
 msgctxt "mlClusteringDensityBased|"
 msgid "<b>Save Model</b>"
@@ -6316,7 +6307,7 @@ msgstr "エルボー法"
 
 msgctxt "mlClusteringFuzzyCMeans|"
 msgid "t-SNE cluster plot"
-msgstr "t-SNEクラスタープロット"
+msgstr "t-SNEクラスタプロット"
 
 msgctxt "mlClusteringFuzzyCMeans|"
 msgid "Legend"
@@ -6374,11 +6365,11 @@ msgstr "に従って最適化"
 
 msgctxt "mlClusteringFuzzyCMeans|"
 msgid "Max. clusters:"
-msgstr "最大クラスター:"
+msgstr "最大クラスタ:"
 
 msgctxt "mlClusteringFuzzyCMeans|"
 msgid "Add predicted clusters to data"
-msgstr "予測クラスターをデータに追加"
+msgstr "予測クラスタをデータに追加"
 
 msgctxt "mlClusteringFuzzyCMeans|"
 msgid "<b>Save Model</b>"
@@ -6433,7 +6424,7 @@ msgstr "デンドログラム"
 
 msgctxt "mlClusteringHierarchical|"
 msgid "t-SNE cluster plot"
-msgstr "t-SNEクラスタープロット"
+msgstr "t-SNEクラスタプロット"
 
 msgctxt "mlClusteringHierarchical|"
 msgid "Legend"
@@ -6492,11 +6483,11 @@ msgstr "に従って最適化"
 #, fuzzy
 msgctxt "mlClusteringHierarchical|"
 msgid "Max. clusters:"
-msgstr "マックス.クラスター："
+msgstr "マックス.クラスタ："
 
 msgctxt "mlClusteringHierarchical|"
 msgid "Add predicted clusters to data"
-msgstr "予測クラスターをデータに追加"
+msgstr "予測クラスタをデータに追加"
 
 msgctxt "mlClusteringHierarchical|"
 msgid "<b>Save Model</b>"
@@ -6553,7 +6544,7 @@ msgstr "エルボー法"
 
 msgctxt "mlClusteringKMeans|"
 msgid "t-SNE cluster plot"
-msgstr "t-SNEクラスタープロット"
+msgstr "t-SNEクラスタプロット"
 
 msgctxt "mlClusteringKMeans|"
 msgid "Legend"
@@ -6617,7 +6608,7 @@ msgstr "に従って最適化"
 
 msgctxt "mlClusteringKMeans|"
 msgid "Max. clusters:"
-msgstr "最大クラスター:"
+msgstr "最大クラスタ:"
 
 msgctxt "mlClusteringKMeans|"
 msgid "Add predicted clusters to data"
@@ -6676,7 +6667,7 @@ msgstr "エルボー法"
 
 msgctxt "mlClusteringRandomForest|"
 msgid "t-SNE cluster plot"
-msgstr "t-SNEクラスタープロット"
+msgstr "t-SNEクラスタプロット"
 
 msgctxt "mlClusteringRandomForest|"
 msgid "Legend"
@@ -6731,7 +6722,7 @@ msgstr "に従って最適化"
 
 msgctxt "mlClusteringRandomForest|"
 msgid "Max. clusters:"
-msgstr "最大クラスター:"
+msgstr "最大クラスタ:"
 
 msgctxt "mlClusteringRandomForest|"
 msgid "Add predicted clusters to data"
@@ -7809,7 +7800,7 @@ msgstr "グループ"
 
 msgctxt "NetworkAnalysis|"
 msgid "Manual colors"
-msgstr "手動の色"
+msgstr "手動で色決める"
 
 #, fuzzy
 msgctxt "NetworkAnalysis|"
@@ -8002,7 +7993,7 @@ msgstr "y座標の名前"
 
 msgctxt "Description|"
 msgid "This module offers the Linear Mixed Models analysis."
-msgstr "このモジュールは、混合モデル分析を提供しています."
+msgstr "このモジュールは、混合モデル分析を表示."
 
 msgctxt "Correlation|"
 msgid "Variables"
@@ -8096,7 +8087,7 @@ msgstr "多変量正規性"
 #, fuzzy
 msgctxt "Correlation|"
 msgid "Shapiro"
-msgstr "シャピロ"
+msgstr "シャピロ・ウィルク検定"
 
 #, fuzzy
 msgctxt "Correlation|"
@@ -9950,7 +9941,7 @@ msgstr "保存"
 
 msgctxt "ActionButtons|"
 msgid "Save As"
-msgstr "保存する"
+msgstr "保存"
 
 msgctxt "ActionButtons|"
 msgid "Export Results"
@@ -10025,11 +10016,11 @@ msgstr "名前順に並べ替える"
 
 msgctxt "SortMenuModel|"
 msgid "Sort by name A-Z"
-msgstr "名前順に並べ替える"
+msgstr "A-Z で並べ替える"
 
 msgctxt "SortMenuModel|"
 msgid "Sort by name Z-A"
-msgstr "名前 Z-A で並べ替え"
+msgstr "Z-A で並べ替え"
 
 msgctxt "SortMenuModel|"
 msgid "Sort by type"
@@ -10180,7 +10171,7 @@ msgstr "フィルタで除外された行の表示."
 
 msgctxt "FilterWindow|"
 msgid "Apply pass-through filter"
-msgstr "パススルー フィルタを適用する"
+msgstr "パススルー フィルタを適用"
 
 msgctxt "FilterWindow|"
 msgid "Filter applied"
@@ -10197,7 +10188,7 @@ msgstr "フィルタが既に適用されています"
 
 msgctxt "FilterWindow|"
 msgid "Open Documentation"
-msgstr "ドキュメントを開く"
+msgstr "ヘルプを開く"
 
 msgctxt "FilterWindow|"
 msgid "Hide filter"
@@ -10205,7 +10196,7 @@ msgstr "フィルタを非表示"
 
 msgctxt "FilterWindow|"
 msgid "Reset all checkmarks on all labels"
-msgstr "すべてのラベルのすべてのチェックマークをリセットする"
+msgstr "すべてのラベルのすべてのチェックマークをリセット"
 
 msgctxt "FilterWindow|"
 msgid "Switch to the drag and drop filter"
@@ -10271,7 +10262,7 @@ msgstr "モデル内のパラメータ"
 #, fuzzy
 msgctxt "JAGS|"
 msgid "Monitor these parameters"
-msgstr "これらのパラメータを監視します"
+msgstr "これらのパラメータを監視"
 
 #, fuzzy
 msgctxt "JAGS|"
@@ -10460,7 +10451,7 @@ msgstr "間違った行ののタイプ：リストビュー %2 の %1"
 
 msgctxt "PrefsUI|"
 msgid "User Interface options"
-msgstr "ユーザーインターフェースオプション"
+msgstr "ユーザーインターフェイスオプション"
 
 msgctxt "PrefsUI|"
 msgid "Themes"
@@ -10500,7 +10491,7 @@ msgstr "ズーム(%): "
 
 msgctxt "PrefsUI|"
 msgid "Increase or decrease the size of the interface elements (text, buttons, etc)."
-msgstr "インターフェイス要素 (テキスト、ボタンなど) のサイズを増減します."
+msgstr "インターフェイス要素 (テキスト、ボタンなど) のサイズを増減."
 
 msgctxt "PrefsUI|"
 msgid "Scroll speed (pix/s): "
@@ -10508,7 +10499,7 @@ msgstr "スクロール速度(pix/s): "
 
 msgctxt "PrefsUI|"
 msgid "Set the speed with which you can scroll in the options, dataviewer and other places."
-msgstr "オプション、データビューア、その他の場所でスクロールできる速度を設定します."
+msgstr "オプション、データビューア、その他の場所でスクロールできる速度を設定."
 
 msgctxt "PrefsUI|"
 msgid "Safe Graphics Mode"
@@ -10530,7 +10521,7 @@ msgstr "新しい値"
 
 msgctxt "DataLibraryBreadCrumbsListModel|"
 msgid "Categories"
-msgstr "カテゴリー"
+msgstr "カテゴリ"
 
 msgctxt "UsingContainers|"
 msgid "We are ready"
@@ -10538,7 +10529,7 @@ msgstr "準備完了"
 
 msgctxt "UsingContainers|"
 msgid "Use the container code"
-msgstr "コンテナー コードを使用する"
+msgstr "コンテナー コードを使用"
 
 msgctxt "UsingContainers|"
 msgid "Optional table"
@@ -10730,7 +10721,7 @@ msgstr "フィルタの変更"
 
 msgctxt "Ancova|"
 msgid "Flag Significant Comparisons"
-msgstr "有意な比較のフラグ"
+msgstr "有意水準"
 
 msgctxt "Ancova|"
 msgid " "
@@ -10742,7 +10733,7 @@ msgstr "効果量"
 
 msgctxt "Anova|"
 msgid "Flag Significant Comparisons"
-msgstr "有意な比較のフラグ"
+msgstr "有意水準"
 
 msgctxt "Anova|"
 msgid " "
@@ -10750,11 +10741,11 @@ msgstr " "
 
 msgctxt "AnovaRepeatedMeasures|"
 msgid "Assume equal variances"
-msgstr "等分散を仮定する"
+msgstr "等分散を仮定"
 
 msgctxt "AnovaRepeatedMeasures|"
 msgid "Flag Significant Comparisons"
-msgstr "有意な比較のフラグ"
+msgstr "有意水準"
 
 msgctxt "PrincipalComponentAnalysis|"
 msgid "Highlight"
@@ -10949,7 +10940,7 @@ msgstr "クラスタの平均"
 
 msgctxt "mlClusteringDensityBased|"
 msgid "Display barplot"
-msgstr "バープロットを表示する"
+msgstr "バープロットを表示"
 
 msgctxt "mlClusteringDensityBased|"
 msgid "Group into one figure"
@@ -10966,7 +10957,7 @@ msgstr "クラスタの平均"
 
 msgctxt "mlClusteringFuzzyCMeans|"
 msgid "Display barplot"
-msgstr "バープロットを表示する"
+msgstr "バープロットを表示"
 
 msgctxt "mlClusteringFuzzyCMeans|"
 msgid "Group into one figure"
@@ -10984,7 +10975,7 @@ msgstr "クラスタの手段"
 
 msgctxt "mlClusteringHierarchical|"
 msgid "Display barplot"
-msgstr "バープロットを表示する"
+msgstr "バープロットを表示"
 
 msgctxt "mlClusteringHierarchical|"
 msgid "Group into one figure"
@@ -11001,7 +10992,7 @@ msgstr "クラスタの平均"
 
 msgctxt "mlClusteringKMeans|"
 msgid "Display barplot"
-msgstr "バープロットを表示する"
+msgstr "バープロットを表示"
 
 msgctxt "mlClusteringKMeans|"
 msgid "Group into one figure"
@@ -11018,7 +11009,7 @@ msgstr "クラスタの平均"
 
 msgctxt "mlClusteringRandomForest|"
 msgid "Display barplot"
-msgstr "バープロットを表示する"
+msgstr "バープロットを表示"
 
 msgctxt "mlClusteringRandomForest|"
 msgid "Group into one figure"
@@ -11057,7 +11048,7 @@ msgstr "スピアマンのρ"
 
 msgctxt "CorrelationBayesian|"
 msgid "Kendall's tau"
-msgstr "ケンドールのタウ"
+msgstr "ケンドールのτ"
 
 #, fuzzy
 msgctxt "CorrelationBayesian|"
@@ -11121,7 +11112,7 @@ msgstr "検定情報"
 
 msgctxt "PrefsUI|"
 msgid "Use Native File Dialogs"
-msgstr "ネイティブ ファイル ダイアログを使用する"
+msgstr "ネイティブ ファイル ダイアログを使用"
 
 msgctxt "PrefsUI|"
 msgid "If disabled it will not use your operating system's file dialogs but those made by Qt. This might solve some problems on Windows where JASP crashes on pressing \"Browse\"."
@@ -11257,7 +11248,7 @@ msgstr "説明文"
 
 msgctxt "auditClassicalBenfordsLaw|"
 msgid "Enable"
-msgstr "有効"
+msgstr "有効化"
 
 msgctxt "auditClassicalBenfordsLaw|"
 msgid "Tables and Plots"
@@ -12448,7 +12439,7 @@ msgstr "アンダーソン・ダーリン"
 #, fuzzy
 msgctxt "LDgaussianunivariate|"
 msgid "Shapiro-Wilk"
-msgstr "シャピロ - ウィルク"
+msgstr "シャピロ・ウィルク検定"
 
 msgctxt "LDnegbinomial|"
 msgid "Show Distribution"
@@ -13489,7 +13480,7 @@ msgstr "推定"
 #, fuzzy
 msgctxt "glinmod|"
 msgid "Show parameter Estimates"
-msgstr "パラメータ推定値を表示します"
+msgstr "パラメータ推定値を表示"
 
 #, fuzzy
 msgctxt "glinmod|"
@@ -13700,7 +13691,7 @@ msgstr "固定効果の報告"
 
 msgctxt "mixedmod|"
 msgid "Report random effects"
-msgstr "ランダム効果を報告する"
+msgstr "ランダム効果を報告"
 
 #, fuzzy
 msgctxt "mixedmod|"
@@ -13841,7 +13832,7 @@ msgstr "従属変数ごとにケースを除外"
 
 msgctxt "Description|"
 msgid "This module offers the standard Frequentist and Bayesian frequency analyses."
-msgstr "このモジュールは、標準頻度論的統計とベイズ統計の頻度分析を提供します。."
+msgstr "このモジュールは、標準頻度論的統計とベイズ統計の頻度分析を表示します."
 
 #, fuzzy
 msgctxt "EquivalenceBayesianOneSampleTTest|"
@@ -13902,7 +13893,7 @@ msgstr "コピー LaTeX"
 
 msgctxt "ResultMenuModel|"
 msgid "Copy Citations"
-msgstr "引用文献をコピーする"
+msgstr "引用文献のコピー"
 
 msgctxt "ResultMenuModel|"
 msgid "Save Image As"
@@ -14131,7 +14122,7 @@ msgstr "総和"
 #, fuzzy
 msgctxt "ComputeColumnWindow|"
 msgid "product of values"
-msgstr "値の積"
+msgstr "総乗"
 
 msgctxt "ComputeColumnWindow|"
 msgid "returns minimum of values"
@@ -14265,7 +14256,7 @@ msgstr "計算列の削除"
 #, fuzzy
 msgctxt "ComputeColumnWindow|"
 msgid "Show generated R code"
-msgstr "生成されたRコードを表示します"
+msgstr "生成されたRコードを表示"
 
 #, fuzzy
 msgctxt "ComputeColumnWindow|"
@@ -14303,11 +14294,11 @@ msgstr "列名が既に使用されています."
 #, fuzzy
 msgctxt "CreateComputeColumnDialog|"
 msgid "Define column through R code"
-msgstr "Rコードを介して列を定義します"
+msgstr "Rコードを介して列を定義"
 
 msgctxt "CreateComputeColumnDialog|"
 msgid "Define column through drag and drop formulas"
-msgstr "ドラッグ＆ドロップ式を通じて列を定義します"
+msgstr "ドラッグ＆ドロップ式を通じて列を定義"
 
 msgctxt "CreateComputeColumnDialog|"
 msgid "Open Documentation"
@@ -14338,7 +14329,7 @@ msgstr "フィルタを表示"
 
 msgctxt "DataTableView|"
 msgid "Add computed column"
-msgstr "計算列を追加します"
+msgstr "計算列を追加"
 
 #, fuzzy
 msgctxt "DataTableView|"
@@ -14367,7 +14358,7 @@ msgstr "%1 に戻る"
 #, fuzzy
 msgctxt "DropTrash|"
 msgid "Dump unwanted snippets here; double-click to erase the entire slate"
-msgstr "ここでは、不要なスニペットをダンプします.全体のスレートを消去するためにダブルクリックVolcar fragmentos no deseados aquí; haga doble clic para borrar toda la pizarra"
+msgstr "ここで不要な部分を削除.ダブルクリックで全部削除"
 
 #, fuzzy
 msgctxt "FilterWindow|"
@@ -14391,7 +14382,7 @@ msgstr "総和"
 #, fuzzy
 msgctxt "FilterWindow|"
 msgid "product of values"
-msgstr "値の積"
+msgstr "総乗"
 
 msgctxt "FilterWindow|"
 msgid "returns minimum of values"
@@ -14399,12 +14390,12 @@ msgstr "最小値を返す"
 
 msgctxt "FilterWindow|"
 msgid "returns maximum of values"
-msgstr "値の最大値を返す"
+msgstr "最大値を返す"
 
 #, fuzzy
 msgctxt "FilterWindow|"
 msgid "mean"
-msgstr "平均"
+msgstr "平均を返す"
 
 msgctxt "FilterWindow|"
 msgid "rounds y to n decimals"
@@ -14412,12 +14403,12 @@ msgstr "y から n の小数を切り捨てる"
 
 msgctxt "FilterWindow|"
 msgid "returns number of elements in y"
-msgstr "y の要素数を返します"
+msgstr "y の桁数を返す"
 
 #, fuzzy
 msgctxt "FilterWindow|"
 msgid "median"
-msgstr "中央値"
+msgstr "中央値を返す"
 
 #, fuzzy
 msgctxt "FilterWindow|"
@@ -14427,27 +14418,27 @@ msgstr "IF-else文"
 #, fuzzy
 msgctxt "auditBayesianPlanning|"
 msgid "Show explanatory text at each step of the analysis"
-msgstr "分析の各ステップで説明文を表示します"
+msgstr "分析の各ステップで説明文を表示"
 
 #, fuzzy
 msgctxt "auditBayesianWorkflow|"
 msgid "Show explanatory text at each step of the analysis"
-msgstr "分析の各ステップで説明文を表示します"
+msgstr "分析の各ステップで説明文を表示"
 
 #, fuzzy
 msgctxt "auditBayesianWorkflow|"
 msgid "Select observations with probability proportional to their value"
-msgstr "その値に確率比例して観測を選択します"
+msgstr "その値に確率比例して観測を選択"
 
 #, fuzzy
 msgctxt "auditBayesianWorkflow|"
 msgid "Select observations with equal probability"
-msgstr "等しい確率で観測を選択します"
+msgstr "等しい確率で観測を選択"
 
 #, fuzzy
 msgctxt "auditBayesianWorkflow|"
 msgid "Select observations by random sampling"
-msgstr "ランダムサンプリングによる観測を選択します"
+msgstr "ランダムサンプリングによる観測を選択"
 
 #, fuzzy
 msgctxt "auditBayesianWorkflow|"
@@ -14461,46 +14452,46 @@ msgstr "一定間隔のサンプリングでの観測を選択"
 
 msgctxt "auditBayesianWorkflow|"
 msgid "Adds a column to specify the audit value of the observations"
-msgstr "観測値の監査値を指定する列を追加します"
+msgstr "観測値の監査値を指定する列を追加"
 
 msgctxt "auditBayesianWorkflow|"
 msgid "Adds a column to specify the observations as correct (0) or incorrect (1)"
-msgstr "正しい (0) または正しくない (1) として観測値を指定する列を追加します."
+msgstr "正しい (0) または正しくない (1) として観測値を指定する列を追加."
 
 #, fuzzy
 msgctxt "auditClassicalBenfordsLaw|"
 msgid "Show explanatory text and formulas"
-msgstr "説明文や数式を表示します"
+msgstr "説明文や数式を表示"
 
 #, fuzzy
 msgctxt "auditClassicalEstimation|"
 msgid "Show explanatory text and formulas"
-msgstr "説明文や数式を表示します"
+msgstr "説明文や数式を表示"
 
 #, fuzzy
 msgctxt "auditClassicalPlanning|"
 msgid "Show explanatory text at each step of the analysis"
-msgstr "分析の各ステップで説明文を表示します"
+msgstr "分析の各ステップで説明文を表示"
 
 #, fuzzy
 msgctxt "auditClassicalWorkflow|"
 msgid "Show explanatory text at each step of the analysis"
-msgstr "分析の各ステップで説明文を表示します"
+msgstr "分析の各ステップで説明文を表示"
 
 #, fuzzy
 msgctxt "auditClassicalWorkflow|"
 msgid "Select observations with probability proportional to their value"
-msgstr "その値に確率比例して観測を選択します"
+msgstr "その値に確率比例して観測を選択"
 
 #, fuzzy
 msgctxt "auditClassicalWorkflow|"
 msgid "Select observations with equal probability"
-msgstr "等しい確率で観測を選択します"
+msgstr "等しい確率で観測を選択"
 
 #, fuzzy
 msgctxt "auditClassicalWorkflow|"
 msgid "Select observations by random sampling"
-msgstr "ランダムサンプリングによる観測を選択します"
+msgstr "ランダムサンプリングによる観測を選択"
 
 #, fuzzy
 msgctxt "auditClassicalWorkflow|"
@@ -14514,11 +14505,11 @@ msgstr "一定間隔のサンプリングでの観測を選択"
 
 msgctxt "auditClassicalWorkflow|"
 msgid "Adds a column to specify the audit value of the observations"
-msgstr "観測値の監査値を指定する列を追加します"
+msgstr "観測値の監査値を指定する列を追加"
 
 msgctxt "auditClassicalWorkflow|"
 msgid "Adds a column to specify the observations as correct (0) or incorrect (1)"
-msgstr "正しい (0) または正しくない (1) として観測値を指定する列を追加します."
+msgstr "正しい (0) または正しくない (1) として観測値を指定する列を追加."
 
 msgctxt "Analysis|"
 msgid "Old-school analysis doesn't use dependencies"
@@ -14576,7 +14567,7 @@ msgstr "フォルダを選択..."
 #, fuzzy
 msgctxt "PreferencesModel|"
 msgid "Safe Graphics mode changed"
-msgstr "セーフグラフィックスモードは変更します"
+msgstr "セーフグラフィックスモードを変更"
 
 msgctxt "PreferencesModel|"
 msgid "You've changed the Safe Graphics mode of JASP, for this option to take effect you need to restart JASP"
@@ -14738,7 +14729,7 @@ msgstr "データ ファイルの生成"
 #, fuzzy
 msgctxt "MainWindow|"
 msgid "Find Data File"
-msgstr "データファイルを探します"
+msgstr "データファイルを探す"
 
 #, fuzzy
 msgctxt "MainWindow|"
@@ -14839,15 +14830,15 @@ msgstr "説明用のjsonファイルを作成."
 #, fuzzy
 msgctxt "DynamicModules|"
 msgid "Create a R directory containing your analysis code."
-msgstr "あなたの解析コードを含むRのディレクトリを作成します."
+msgstr "あなたの解析コードを含むRのディレクトリを作成."
 
 msgctxt "DynamicModules|"
 msgid "Create a inst/qml directory containing your optionsforms."
-msgstr "オプションを含む inst/qml ディレクトリを作成します."
+msgstr "オプションを含む inst/qml ディレクトリを作成."
 
 msgctxt "DynamicModules|"
 msgid "Create a inst/icons directory containing the icons for your ribbonbuttons."
-msgstr "リボンボタンのアイコンを含む inst/icons ディレクトリを作成します."
+msgstr "リボンボタンのアイコンを含む inst/icons ディレクトリを作成."
 
 #, qt-format
 msgctxt "DynamicModules|"
@@ -15154,7 +15145,7 @@ msgstr "テキスト"
 #, fuzzy
 msgctxt "CreateComputeColumnDialog|"
 msgid "Create Column"
-msgstr "列を作成します"
+msgstr "列を作成"
 
 msgctxt "ComputeColumnWindow|"
 msgid "Computed Column: "
@@ -15369,17 +15360,17 @@ msgstr "剰余：除算の余りを返します. (例 3%2 = 1 )"
 
 msgctxt "OperatorSelector|"
 msgid "returns logicals and can be the root of a filter formula"
-msgstr "論理値を返し、フィルタ式のルートにすることができます"
+msgstr "論理値かつフィルタ式の解を返す"
 
 #, qt-format
 msgctxt "OperatorSelector|"
 msgid "Equality: %1"
-msgstr "等式: %1"
+msgstr "イコール: %1"
 
 #, qt-format
 msgctxt "OperatorSelector|"
 msgid "Inequality: %1"
-msgstr "不等式：%1"
+msgstr "ノットイコール：%1"
 
 #, qt-format
 msgctxt "OperatorSelector|"
@@ -15595,22 +15586,22 @@ msgstr "オレンジ"
 #, qt-format
 msgctxt "BoundQMLRepeatedMeasuresFactors|"
 msgid "Level %1"
-msgstr "レベル %1"
+msgstr "Level %1"
 
 #, qt-format
 msgctxt "BoundQMLRepeatedMeasuresFactors|"
 msgid "RM Factor %1"
-msgstr "RM ファクター %1"
+msgstr "RM Factor %1"
 
 #, qt-format
 msgctxt "ListModelRepeatedMeasuresFactors|"
 msgid "Level %1"
-msgstr "レベル %1"
+msgstr "Level %1"
 
 #, qt-format
 msgctxt "ListModelRepeatedMeasuresFactors|"
 msgid "RM Factor %1"
-msgstr "RM ファクター %1"
+msgstr "RM Factor %1"
 
 msgctxt "HelpModel|"
 msgid ""
@@ -16046,7 +16037,7 @@ msgstr "通貨単位のサンプリング"
 #, fuzzy
 msgctxt "auditSelection|"
 msgid "Select observations with probability proportional to their value"
-msgstr "その値に確率比例して観測を選択します"
+msgstr "その値に確率比例して観測を選択"
 
 msgctxt "auditSelection|"
 msgid "Record sampling"
@@ -16055,7 +16046,7 @@ msgstr "レコードサンプリング"
 #, fuzzy
 msgctxt "auditSelection|"
 msgid "Select observations with equal probability"
-msgstr "等しい確率で観測を選択します"
+msgstr "等しい確率で観測を選択"
 
 #, fuzzy
 msgctxt "auditSelection|"
@@ -16070,7 +16061,7 @@ msgstr "無作為抽出"
 #, fuzzy
 msgctxt "auditSelection|"
 msgid "Select observations by random sampling"
-msgstr "ランダムサンプリングによる観測を選択します"
+msgstr "ランダムサンプリングによる観測を選択"
 
 #, fuzzy
 msgctxt "auditSelection|"
@@ -16263,12 +16254,12 @@ msgstr "ファイルの読み込み:"
 #, fuzzy
 msgctxt "FileSelector|"
 msgid "Select file to save"
-msgstr "保存するファイルを選択します"
+msgstr "保存するファイルを選択"
 
 #, fuzzy
 msgctxt "FileSelector|"
 msgid "Select file to load"
-msgstr "ロードするファイルを選択します"
+msgstr "ロードするファイルを選択"
 
 msgctxt "FileSelector|"
 msgid "Browse"
@@ -16280,7 +16271,7 @@ msgstr "タブを追加"
 
 msgctxt "TabView|"
 msgid "Remove this tab"
-msgstr "このタブを削除します"
+msgstr "このタブを削除"
 
 msgctxt "TabView|"
 msgid "New tab"
@@ -16379,12 +16370,12 @@ msgid ""
 "Enter your R code here.\n"
 "The data is fully available as 'data' and filtered as 'filteredData'."
 msgstr ""
-"R コードをここに入力します.\n"
+"R コードをここに入力.\n"
 "データは'data'として完全に利用可能で、'filteredData'でフィルター処理されます."
 
 msgctxt "RCommanderWindow|"
 msgid "Enter your R code here."
-msgstr "R コードをここに入力します。"
+msgstr "R コードをここに入力."
 
 msgctxt "RCommanderWindow|"
 msgid "Run Code"
@@ -16512,7 +16503,7 @@ msgstr "分散分析"
 #, fuzzy
 msgctxt "Description|"
 msgid "This module offers the standard Frequentist and Bayesian ANOVA tests."
-msgstr "このモジュールは、標準的な頻度論的統計とベイズ統計の分散分析を提供しています."
+msgstr "このモジュールは、標準的な頻度論的統計とベイズ統計の分散分析を表示します."
 
 msgctxt "Description|"
 msgid "Classical"
@@ -16849,7 +16840,7 @@ msgstr "頻度分析"
 #, fuzzy
 msgctxt "Description|"
 msgid "This module offers the standard Frequentist and Bayesian frequency analysis."
-msgstr "このモジュールは、標準的な頻度論的統計とベイズ統計の頻度分析を提供します."
+msgstr "このモジュールは、標準的な頻度論的統計とベイズ統計の頻度分析を表示."
 
 #, fuzzy
 msgctxt "Description|"
@@ -16903,7 +16894,7 @@ msgstr "ベイズ　対数線形回帰"
 
 msgctxt "Description|"
 msgid "JAGS interface for JASP"
-msgstr "JASP用のJAGSインターフェース"
+msgstr "JASP用のJAGSインターフェイス"
 
 #, fuzzy
 msgctxt "Description|"
@@ -17002,11 +16993,11 @@ msgstr "ファジーC平均法"
 #, fuzzy
 msgctxt "Description|"
 msgid "Fuzzy C-Means Clustering"
-msgstr "ファジーC平均法によるクラスター分析"
+msgstr "ファジーC平均法によるクラスタ分析"
 
 msgctxt "Description|"
 msgid "Hierarchical"
-msgstr "ツリー構造にする"
+msgstr "ツリー構造"
 
 #, fuzzy
 msgctxt "Description|"
@@ -17021,12 +17012,12 @@ msgstr "k平均法"
 #, fuzzy
 msgctxt "Description|"
 msgid "K-Means Clustering"
-msgstr "k平均法によるクラスター分析"
+msgstr "k平均法によるクラスタ分析"
 
 #, fuzzy
 msgctxt "Description|"
 msgid "Random Forest Clustering"
-msgstr "ランダムフォレストによるクラスター分析"
+msgstr "ランダムフォレストによるクラスタ分析"
 
 #, fuzzy
 msgctxt "Description|"
@@ -17050,7 +17041,7 @@ msgstr "ベイズ　メタ分析"
 
 msgctxt "Description|"
 msgid "This module offers the standard Frequentist and Bayesian Regression analyses."
-msgstr "このモジュールは、標準的な頻度論的統計とベイズ統計の回帰分析を提供します."
+msgstr "このモジュールは、標準的な頻度論的統計とベイズ統計の回帰分析を表示."
 
 msgctxt "Description|"
 msgid "Correlation"
@@ -17131,7 +17122,7 @@ msgstr "S.S.ベイズ　二項検定"
 
 msgctxt "Description|"
 msgid "This module offers the standard Frequentist and Bayesian T-Tests analyses."
-msgstr "このモジュールは、標準的な頻度論的統計とベイズ統計のt検定分析を提供します."
+msgstr "このモジュールは、標準的な頻度論的統計とベイズ統計のt検定分析を表示."
 
 msgctxt "Description|"
 msgid "Visual Modeling (Beta)"
@@ -17350,7 +17341,7 @@ msgstr "有効化"
 #, fuzzy
 msgctxt "auditBayesianEvaluation|"
 msgid "Show explanatory text and formulas"
-msgstr "説明文や数式を表示します"
+msgstr "説明文や数式を表示"
 
 msgctxt "auditBayesianEvaluation|"
 msgid "Tables and Plots"
@@ -17602,7 +17593,7 @@ msgstr "有効化"
 #, fuzzy
 msgctxt "auditClassicalEvaluation|"
 msgid "Show explanatory text and formulas"
-msgstr "説明文や数式を表示します"
+msgstr "説明文や数式を表示"
 
 msgctxt "auditClassicalEvaluation|"
 msgid "Tables and Plots"
@@ -18066,7 +18057,7 @@ msgstr "目標誤差幅"
 #, fuzzy
 msgctxt "RobustBayesianMetaAnalysis|"
 msgid "Exclude models"
-msgstr "モデルを除外する"
+msgstr "モデルを除外"
 
 #, fuzzy
 msgctxt "RobustBayesianMetaAnalysis|"
@@ -18200,7 +18191,7 @@ msgstr "応答スケール"
 #, fuzzy
 msgctxt "MixedModelsBGLMM|"
 msgid "Specify contrasts"
-msgstr "コントラストを指定します"
+msgstr "コントラストを指定"
 
 msgctxt "MixedModelsBGLMM|"
 msgid "Estimated trends/conditional slopes"
@@ -18248,7 +18239,7 @@ msgstr "選択した変数"
 #, fuzzy
 msgctxt "MixedModelsBLMM|"
 msgid "Specify contrasts"
-msgstr "コントラストを指定します"
+msgstr "コントラストを指定"
 
 msgctxt "MixedModelsBLMM|"
 msgid "Estimated trends/conditional slopes"
@@ -18341,7 +18332,7 @@ msgstr "選択した変数"
 
 msgctxt "MixedModelsGLMM|"
 msgid "Compare marginal means to:"
-msgstr "周辺平均を 0 と比較する:"
+msgstr "周辺平均を 0 と比較:"
 
 msgctxt "MixedModelsGLMM|"
 msgid "Response scale"
@@ -18350,7 +18341,7 @@ msgstr "応答スケール"
 #, fuzzy
 msgctxt "MixedModelsGLMM|"
 msgid "Specify contrasts"
-msgstr "コントラストを指定します"
+msgstr "コントラストを指定"
 
 #, fuzzy
 msgctxt "MixedModelsGLMM|"
@@ -18373,7 +18364,7 @@ msgstr "トレンド変数"
 
 msgctxt "MixedModelsGLMM|"
 msgid "Compare trends to:"
-msgstr "傾向を比較する:"
+msgstr "傾向を比較:"
 
 #, fuzzy
 msgctxt "MixedModelsLMM|"
@@ -18414,12 +18405,12 @@ msgstr "強制自由度推定"
 
 msgctxt "MixedModelsLMM|"
 msgid "Compare marginal means to:"
-msgstr "周辺平均を 0 と比較する:"
+msgstr "周辺平均を 0 と比較:"
 
 #, fuzzy
 msgctxt "MixedModelsLMM|"
 msgid "Specify contrasts"
-msgstr "コントラストを指定します"
+msgstr "コントラストを指定"
 
 #, fuzzy
 msgctxt "MixedModelsLMM|"
@@ -18442,7 +18433,7 @@ msgstr "トレンド変数"
 
 msgctxt "MixedModelsLMM|"
 msgid "Compare trends to:"
-msgstr "傾向を比較する:"
+msgstr "傾向を比較:"
 
 msgctxt "ReliabilityBayesian|"
 msgid "Variables"
@@ -19178,7 +19169,7 @@ msgstr "信頼区間"
 #, fuzzy
 msgctxt "MixedModelsPlots|"
 msgid "Distinguish factor levels"
-msgstr "因子レベルを区別する"
+msgstr "因子レベルを判別"
 
 msgctxt "MixedModelsPlots|"
 msgid "Color"
@@ -19463,11 +19454,11 @@ msgstr "テスト プロット ステータス"
 
 msgctxt "BayesFactorType|"
 msgid "Bayes factor to quantify evidence for the alternative hypothesis relative to the null hypothesis."
-msgstr "ベイズ因子は、帰無仮説に対する対立仮説の証拠を定量化します。"
+msgstr "ベイズ因子は、帰無仮説に対する対立仮説の証拠を定量化."
 
 msgctxt "BayesFactorType|"
 msgid "Bayes factor to quantify evidence for the null hypothesis relative to the alternative hypothesis."
-msgstr "ベイズ因子は、対立仮説に対する帰無仮説の証拠を定量化します."
+msgstr "ベイズ因子は、対立仮説に対する帰無仮説の証拠を定量化."
 
 #, fuzzy
 msgctxt "BayesFactorType|"
@@ -19476,7 +19467,7 @@ msgstr "BF10の自然対数."
 
 msgctxt "PrefsAdvanced|"
 msgid "Generate markdown files for help"
-msgstr "ヘルプ用のマークダウン ファイルを生成する"
+msgstr "ヘルプ用のマークダウン ファイルを生成"
 
 msgctxt "PrefsAdvanced|"
 msgid "Enabling this will generate markdown helpfile from the info at qml options."
@@ -19505,7 +19496,7 @@ msgstr "予想される分布と比較"
 #, fuzzy
 msgctxt "Description|"
 msgid "This module offers the Descriptives analysis."
-msgstr "このモジュールは、記述統計分析を提供しています."
+msgstr "このモジュールは、記述統計分析を表示."
 
 msgctxt "Description|"
 msgid "Reliability"
@@ -19514,7 +19505,7 @@ msgstr "確実性"
 #, fuzzy
 msgctxt "Description|"
 msgid "This module offers Reliability analyses."
-msgstr "このモジュールは、信頼性分析を提供しています."
+msgstr "このモジュールは、信頼性分析を表示."
 
 #, fuzzy
 msgctxt "Description|"
@@ -19543,7 +19534,7 @@ msgstr ""
 "ベイズ二項検定は、ジェフリーズ(1961年、P.256)に記載されています。\n"
 "この検定は、問題の母集団(偶然)に対して提案された値をデータがサポートするか、矛盾するかを示します。\n"
 "\n"
-"- ヌルモデル: *p = p0*\n"
+"- 帰無モデル: *p = p0*\n"
 "- 対立モデル: *p 〜ベータ分布(a,b)*\n"
 "*p0*は、帰無仮説の下での二項分布の尺度母数の逆数になっている母数の推奨値です。\n"
 "観察されたデータ: *s* 成功と *f* 失敗、試行の総数、*n = s + f*。\n"
@@ -19565,7 +19556,7 @@ msgstr "母平均が検定値よりも小さいという片側の対立仮説。
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Displays the Bayes factor computed with the user-defined prior; displays a probability wheel depicting the odds of the data under the null vs. alternative hypothesis; displays the median and 95% credible interval of the posterior density."
-msgstr "ユーザ定義の事前分布で計算されたベイズファクタを表示します。ヌル仮説 vs. 対立仮説の下でデータのオッズを示す確率ホイールを表示します。これは中央値と事後分布の確率密度の95%確信区間を表示します。"
+msgstr "ユーザ定義の事前分布で計算されたベイズファクタを表示します。帰無仮説 vs. 対立仮説の下でデータのオッズを示す確率ホイールを表示します。これは中央値と事後分布の確率密度の95%確信区間を表示します。"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Parameters *a* and *b* are set to '1' each. This corresponds to a uniform prior."
@@ -19633,7 +19624,7 @@ msgstr "コンボボックス"
 
 msgctxt "JASPControlBase|"
 msgid "RM Factors List"
-msgstr "RM ファクター リスト"
+msgstr "RM Factor List"
 
 msgctxt "JASPControlBase|"
 msgid "Input ListView"
@@ -19732,7 +19723,7 @@ msgstr "対立仮説の下での効果量の事前分布(破線)と事後分布(
 
 msgctxt "Description|"
 msgid "This module offers the Principal Component, Confirmatory and Exploratory Factor analyses."
-msgstr "このモジュールでは、主成分分析、確認因子分析、および探索的因子分析を提供します。"
+msgstr "このモジュールでは、主成分分析、確認因子分析、および探索的因子分析を表示します。"
 
 msgctxt "PrefsUI|"
 msgid "Fonts"
@@ -19741,7 +19732,7 @@ msgstr "フォント"
 #, fuzzy
 msgctxt "PrefsUI|"
 msgid "Interface:"
-msgstr "インターフェース："
+msgstr "インターフェイス："
 
 #, qt-format
 msgctxt "PrefsUI|"
@@ -19872,12 +19863,12 @@ msgstr "入力タイプ"
 #, fuzzy
 msgctxt "LSbinomialdatainput|"
 msgid "Select variable"
-msgstr "変数を選択します"
+msgstr "変数を選択"
 
 #, fuzzy
 msgctxt "LSbinomialdatainput|"
 msgid "Specify counts"
-msgstr "カウントを指定します"
+msgstr "カウントを指定"
 
 msgctxt "LSbinomialdatainput|"
 msgid "Enter sequence"
@@ -19901,7 +19892,7 @@ msgstr "観測値のコンマ区切りシーケンス"
 
 msgctxt "LSbinomialdatainput|"
 msgid "Levels"
-msgstr "レベル"
+msgstr "Levels"
 
 msgctxt "LSbinomialdatainput|"
 msgid "Available"
@@ -20253,7 +20244,7 @@ msgstr "スタック"
 #, fuzzy
 msgctxt "LStestinginference|"
 msgid "Marginal"
-msgstr "周辺平均を 0 と比較する"
+msgstr "周辺平均を 0 と比較"
 
 #, fuzzy
 msgctxt "LStestinginference|"
@@ -20377,7 +20368,7 @@ msgstr "スタック"
 #, fuzzy
 msgctxt "LStestingpredictions|"
 msgid "Marginal"
-msgstr "周辺平均を 0 と比較する"
+msgstr "周辺平均を 0 と比較"
 
 #, fuzzy
 msgctxt "LStestingpredictions|"
@@ -20546,7 +20537,7 @@ msgstr "P値の周波数"
 
 msgctxt "SelectionModels|"
 msgid "Automatically join p-value intervals"
-msgstr "自動的p 値間隔の結合"
+msgstr "自動的にp値間隔を結合"
 
 #, fuzzy
 msgctxt "SelectionModels|"
@@ -20646,7 +20637,7 @@ msgstr "カットオフステップ"
 
 msgctxt "RegressionLogistic|"
 msgid "Add cutoff labels"
-msgstr "カットオフ ラベルを追加する"
+msgstr "カットオフ ラベルを追加"
 
 #, fuzzy
 msgctxt "RegressionLogistic|"
